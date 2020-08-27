@@ -9,6 +9,7 @@ apt-get install -y \
 	vim \
 	git \
 	golang \
+  mysql-client \
 	unzip \
 	tmux \
 	zsh
