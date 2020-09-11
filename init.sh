@@ -6,6 +6,7 @@ set -ux
 
 apt-get update -y
 apt-get install -y \
+  jq \
 	vim \
 	git \
 	golang \
