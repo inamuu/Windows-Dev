@@ -12,3 +12,24 @@ else
   echo "すでにanyenvはインストールされています。"
 fi
 
+## install nodenv
+echo "## noenvのインストール"
+NODENVNUM=$(anyenv versions | grep nodenv | wc -l)
+if [ ${NODENVNUM} -eq 0 ];then
+  anyenv install nodenv 
+fi
+
+## install pyenv
+echo "## pyenvのインストール"
+PYENVNUM=$(anyenv versions | grep pyenv | wc -l)
+if [ ${PYENVNUM} -eq 0 ];then
+  anyenv install pyenv 
+fi
+
+## install rbenv
+echo "## rbenvのインストール"
+RBENVNUM=$(anyenv versions | grep rbenv | wc -l)
+if [ ${RBENVNUM} -eq 0 ];then
+  anyenv install rbenv 
+fi
+
