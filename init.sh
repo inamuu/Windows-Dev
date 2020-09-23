@@ -10,6 +10,7 @@ apt-get install -y \
 	vim \
 	git \
 	golang \
+  make \
   mysql-client \
 	unzip \
 	tmux \
