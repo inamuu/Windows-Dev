@@ -19,6 +19,9 @@ if [ ${NODENVNUM} -eq 0 ];then
   anyenv install nodenv 
 fi
 
+"## yarnのインストール. 次回nodeインストール時に実行されます"
+git clone https://github.com/pine/nodenv-yarn-install.git "$(nodenv root)/plugins/nodenv-yarn-install"
+
 ## install pyenv
 echo "## pyenvのインストール"
 PYENVNUM=$(anyenv versions | grep pyenv | wc -l)
