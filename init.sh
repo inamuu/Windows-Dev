@@ -4,17 +4,18 @@ GITPATH=/mnt/c/Users/M172043/Apps/github.com/inamuu/
 
 set -ux
 
-apt-get update -y
-apt-get install -y \
+apt update -y
+apt install -y \
   jq \
-	vim \
-	git \
-	golang \
+　vim \
+　git \
+　golang \
   make \
   mysql-client \
-	unzip \
-	tmux \
-	zsh
+  language-pack-ja \
+　unzip \
+　tmux \
+　zsh
 
 cd ${GITPATH}
 
