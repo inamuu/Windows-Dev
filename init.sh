@@ -6,10 +6,10 @@ set -ux
 
 apt update -y
 apt install -y \
+  connect-proxy \
   jq \
 　vim \
 　git \
-　golang \
   make \
   mysql-client \
   language-pack-ja \
