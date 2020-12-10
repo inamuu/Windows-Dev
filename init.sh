@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GITPATH=/mnt/c/Users/M172043/Apps/github.com/inamuu/
+#GITPATH=/mnt/c/Users/USERNAME/Apps/github.com/inamuu/
 
 set -ux
 
